@@ -1,199 +1,171 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Roboto+Mono:wght@400;500;600&family=Roboto:ital,wght@0,300;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    text-align: center;
-    background-color: aliceblue;
-    font-family: 'Roboto', sans-serif;
-
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-header{
-    margin-top: 5vh;
+h1 {
+  margin-top: 5vh;
 }
-.container{
-display: flex;
-margin-top: 3vh;
-padding: 3vw;
-width: 80vw;
-background-color: aliceblue;
-height: 150vh;
-margin-left: auto;
-margin-right: auto;
-justify-content: space-between;
+h3 {
+  margin-top: 3vh;
 }
-.left-part{
-    width: 40%;
-    height: 100%;
-   
+a {
+  text-decoration: none;
+  color: black;
 }
-
-.heading{
-    background-color: hsl(212, 97%, 47%);
-    color: #fff;
-    width: 100%;
-    text-align: center; margin-top: 5vh;
-    padding: .5vw;
+p {
+  font-size: 1.2rem;
 }
-.profile-img{
-    width: 220px;
-    height: 220px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.15);
-    border-radius: 50%;
-    object-fit: cover;
+.main {
+  width: 55%;
+  min-height: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
-.profile-img img{
-    width: 200px;
-    height: 200px;
-   border-radius: 50%;
-  margin-top: 1.3vh;
+.left-part {
+  width: 40%;
+  background-color: hsl(210, 60%, 48%);
+  color: #fff;
+}
+.profile-img {
+  margin-top: 5vh;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-img img {
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
   object-fit: cover;
 }
-.contact-info{
-    margin-top: 2vh;
-    width: 100%;
-    
-    overflow: hidden;
+.name-profession {
+  margin-left: 10%;
 }
-.contact-content{
-    width: 100%;
-    text-align: left;
-    display: inline-block;
-    margin-top: 3vh;
+.social-links {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-left: 10%;
 }
-.contact-icon{
-    font-size: 1.5vw;
-    color: hsl(212, 97%, 47%) ;
+.social-link {
+  margin-top: 1vh;
+  color: #fff;
 }
-.personal-info{
-    width: 100%;
-margin-top: 2vh;
-   
-    text-align: left;
-    
+.social-icon {
+  font-size: 1.3rem;
+  margin-right: 0.5vw;
 }
-.personal-info-content{
-    margin-top: 1.5vh;
+.relevent-skill {
+  margin-top: 7vh;
+  margin-left: 15%;
 }
-.intrests{
-    width: 100%;
-    
-    margin-top: 2vh;
-    text-align: left;
- 
+.relevent-skill ul li {
+  margin-top: 1vh;
+  font-size: 1.1rem;
 }
-.intrests ul{
-    list-style: none;
+.right-part {
+  width: 60%;
 }
-.intrests ul li{
- margin-top: 1vh;
+.working-experince {
+  width: 100%;
+  margin-top: 5vh;
+  padding: 2vw 0vh 0 3vw;
 }
-.right-part{
-   width: 55%;
+.heading {
+  margin-top: 7vh;
+  width: 79%;
+  height: 7vh;
+  background-color: rgb(229, 246, 252);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 2vw;
+  padding-left: 2vw;
+}
+.internship {
+  width: 79%;
+  margin-left: 3vw;
+}
+.internship-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -15vw;
+}
+.internship-icon {
+  font-size: 4vw;
+  color: hsl(210, 60%, 48%);
+}
 
+.internsdhip-details {
+  margin-top: 2vh;
 }
-.head{
-    min-height: 15%;
-    background-color: hsl(212, 97%, 47%);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.projects-content {
+  margin-top: 2vh;
+  margin-left: 6vw;
 }
-.declaratation{
-    background-color:hsl(212, 97%, 47%);
-    color: #fff;
-    margin-top: 2vh;
-    padding: .5vw;
+.projects-content ul li {
+  margin-top: 1vh;
+  font-size: 1.2rem;
 }
-.inner-content{
-    margin-top: 2vh;
-    text-align: left;
-    margin-left: 3vw;
+.education-history {
+  width: 100%;
+  margin-top: 5vh;
+  padding: 2vw 0vh 0 3vw;
 }
-@media screen and (max-width:800px){
-    .container{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    .left-part{
-        width: 100%;
-        height: 100%;
-       
-    }
-    .profile-img{
-        width: 220px;
-        height: 220px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        box-shadow: 2px 2px 20px rgba(0,0,0,0.15);
-        border-radius: 50%;
-    }
-    
-    .contact-info{
-        margin-top: 2vh;
-        width: 100%;
-        
-        overflow: hidden;
-    }
-    .contact-content{
-        width: 100%;
-        text-align: left;
-        display: inline-block;
-        margin-top: 3vh;
-    }
-    .contact-icon{
-        font-size: 5.5vw;
-        color: hsl(250%, 69%, 61%) ;
-    }
-    .personal-info{
-        width: 100%;
-    margin-top: 2vh;
-       
-        text-align: left;
-        
-    }
-    .personal-info-content{
-        margin-top: 1.5vh;
-    }
-    .intrests{
-        width: 100%;
-        margin-top: 2vh;
-        text-align: left;
-     
-    }
-    .intrests ul{
-        list-style: none;
-    }
-    .intrests ul li{
-     margin-top: 1vh;
-    }
-    .right-part{
-       width: 100%;
-    
-    }
-    .head{
-        min-height: 20%;
-        background-color: hsl(212, 97%, 47%);
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .declaratation{
-        background-color:hsl(212, 97%, 47%) ;
-        color: #fff;
-        margin-top: 2vh;
-    }
-    .inner-content{
-        margin-top: 2vh;
-        text-align: left;
-        margin-left: 3vw;
-    }
+.education-icon {
+  font-size: 4vw;
+  color: hsl(210, 60%, 48%);
+}
+.education-content-container-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -15vw;
+}
+.education-content {
+  width: 70%;
+  margin-left: 6vw;
+}
+.education-content li {
+  margin-top: 1vh;
+  font-size: 1.2rem;
+}
+.certification {
+  width: 100%;
+  margin-top: 5vh;
+  padding: 2vw 0vh 0 3vw;
+}
+.certification {
+  width: 100%;
+  margin-top: 5vh;
+  padding: 2vw 0vh 0 3vw;
+}
+.certification-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -15vw;
+}
+.certification-icon {
+  font-size: 4vw;
+  color: hsl(210, 60%, 48%);
+}
+.certification-content {
+  width: 70%;
+  margin-left: 6vw;
+  margin-bottom: 5vh;
+}
+.certification-content li {
+  margin-top: 1vh;
+  font-size: 1.2rem;
 }
