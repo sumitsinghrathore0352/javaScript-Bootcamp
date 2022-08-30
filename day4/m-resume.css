@@ -91,15 +91,14 @@ p {
 }
 .heading {
   margin-top: 7vh;
-  width: 79%;
+  width: 89%;
   font-size: 15px;
   height: 7vh;
   background-color: rgb(229, 246, 252);
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-left: 2vw;
-  padding-left: 2vw;
+  padding-left: 0.6vw;
   font-weight: 700;
 }
 .internship {
@@ -115,6 +114,7 @@ p {
 .internship-icon {
   font-size: 3rem;
   color: hsl(210, 60%, 48%);
+  margin-right: 2vw;
 }
 
 .internsdhip-details {
@@ -137,6 +137,7 @@ p {
 .education-icon {
   font-size: 3rem;
   color: hsl(210, 60%, 48%);
+  margin-right: 2vw;
 }
 .education-content-container-heading {
   display: flex;
@@ -171,6 +172,7 @@ p {
 .certification-icon {
   font-size: 3rem;
   color: hsl(210, 60%, 48%);
+  margin-right: 2vw;
 }
 .certification-content {
   width: 60%;
