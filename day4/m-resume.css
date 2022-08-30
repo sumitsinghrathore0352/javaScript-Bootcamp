@@ -87,12 +87,13 @@ p {
 .working-experince {
   width: 100%;
   margin-top: 5vh;
-  padding: 2vw 0vh 0 3vw;
+  padding-left: 3vw;
 }
 .heading {
   margin-top: 7vh;
   width: 89%;
   font-size: 15px;
+  font-family: 600;
   height: 7vh;
   background-color: rgb(229, 246, 252);
   display: flex;
@@ -103,27 +104,27 @@ p {
 }
 .internship {
   width: 79%;
-  margin-left: 3vw;
 }
 .internship-head {
+  width: 90%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  margin-left: -15vw;
 }
 .internship-icon {
   font-size: 3rem;
   color: hsl(210, 60%, 48%);
-  margin-right: 2vw;
+  margin-right: 1vw;
 }
 
 .internsdhip-details {
   margin-top: 2vh;
   margin-left: 4vw;
+  margin-right: 3vw;
 }
 .projects-content {
   margin-top: 2vh;
-  margin-left: 10vw;
+  margin-left: 5vw;
 }
 .projects-content ul li {
   margin-top: 1vh;
@@ -137,17 +138,17 @@ p {
 .education-icon {
   font-size: 3rem;
   color: hsl(210, 60%, 48%);
-  margin-right: 2vw;
+  margin-right: 1vw;
 }
 .education-content-container-heading {
+  width: 90%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  margin-left: -15vw;
 }
 .education-content {
   width: 60%;
-  margin-left: 8vw;
+  margin-left: 4vw;
 }
 .education-content li {
   margin-top: 1vh;
@@ -165,18 +166,17 @@ p {
 }
 .certification-head {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  margin-left: -15vw;
 }
 .certification-icon {
   font-size: 3rem;
   color: hsl(210, 60%, 48%);
-  margin-right: 2vw;
+  margin-right: 1vw;
 }
 .certification-content {
   width: 60%;
-  margin-left: 8vw;
+  margin-left: 5vw;
   margin-bottom: 5vh;
 }
 .certification-content li {
