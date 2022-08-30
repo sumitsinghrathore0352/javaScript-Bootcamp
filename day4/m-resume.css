@@ -92,6 +92,7 @@ p {
 .heading {
   margin-top: 7vh;
   width: 79%;
+  font-size: 15px;
   height: 7vh;
   background-color: rgb(229, 246, 252);
   display: flex;
